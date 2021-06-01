@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="APane" prefHeight="471.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabpratico.FXMLDocumentController">
+    <children>
+      <Polygon fill="#5b4a17" layoutX="307.0" layoutY="91.0" scaleX="1.2" scaleY="1.2" stroke="BLACK" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+        <Polygon fill="#5b4a17" layoutX="307.0" layoutY="406.0" rotate="-180.0" scaleX="1.2" scaleY="1.2" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+        <Polygon fill="#826b24" layoutX="443.0" layoutY="172.0" rotate="59.0" scaleX="1.2" scaleY="1.2" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+        <Polygon fill="#826b24" layoutX="170.0" layoutY="170.0" rotate="-59.0" scaleX="1.2" scaleY="1.2" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+        <Polygon fill="#826b24" layoutX="169.0" layoutY="328.0" rotate="-121.0" scaleX="1.2" scaleY="1.2" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+        <Polygon fill="#826b24" layoutX="445.0" layoutY="328.0" rotate="121.0" scaleX="1.2" scaleY="1.2" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+        <Polygon fx:id="Centro" fill="#d3ad39" layoutX="307.0" layoutY="239.0" rotate="-90.0" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+       
+                <Double fx:value="-50.0" />
+                <Double fx:value="30.0" />
+
+                <Double fx:value="0.0" />
+                <Double fx:value="60.0" />
+
+                <Double fx:value="50.0" />
+                <Double fx:value="30.0" />
+
+                <Double fx:value="50.0" />
+                <Double fx:value="-30.0" />
+
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+
+                <Double fx:value="-50.0" />
+                <Double fx:value="-30.0" />
+            </points>
+        </Polygon>
+      <Button id="BotaoTurno" layoutX="486.0" layoutY="422.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="120.0" text="Acabar Turno" textAlignment="CENTER">
+         <font>
+            <Font name="Bauhaus 93" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="422.0" prefHeight="34.0" prefWidth="113.0" styleClass="LabelJogadores" text="   Jogador1" textAlignment="CENTER">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="493.0" layoutY="14.0" prefHeight="34.0" prefWidth="113.0" styleClass="LabelJogadores" text="   Jogador2" textAlignment="CENTER">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
